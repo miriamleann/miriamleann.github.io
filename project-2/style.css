@@ -9,15 +9,11 @@ body {
 
 
 h1 {
-  color: black;
   font-family: 'marion';
   text-align: center;
-  font-size: 1oopx;
+  font-size: 100px;
 }
 
-img {
-  width: 100%
-}
 
 
 h2{
@@ -75,15 +71,12 @@ body {
 
 
 h1 {
-    color: black;
+    
     font-family: 'marion';
     text-align: center;
     font-size: 100px;
 }
 
-img {
-    width: 100%
-}
 
 
 h2{

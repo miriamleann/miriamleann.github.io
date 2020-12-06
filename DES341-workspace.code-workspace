@@ -1,9 +1,11 @@
 {
 	"folders": [
 		{
+			"name": "miriamleann.github.io",
 			"path": "."
 		},
 		{
+			"name": "hw1",
 			"path": "miriamleann.github.io/homework/hw1"
 		}
 	],

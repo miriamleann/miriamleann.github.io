@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Planets</title>
+    <style type= "text/css">
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(252, 218, 184);
+    text-align: center;
+    padding: 25px 100px;
+    text-decoration: none;
+    font-family: avenir;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(252, 218, 184), 0 0 5px rgb(252, 218, 184);
+
+  }
+  
+
+
+
+
+
+a:hover {
+  color: hotpink;
+}
+
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: avenir;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/yellow-space.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(252, 218, 184), 0 0 5px rgb(252, 218, 184);
+}
+
+
+p {
+  text-align: center;
+  font-size: 11px;
+}
+
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 90px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 90px;
+  height: 300px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+h3 {
+  text-align: center;
+}
+
+
+
+
+ </style>
+
+
+ </head>
+  <body>
+   
+
+
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1 style="font-size:80px; text-align: left; color: white">PLANETS</h1>
+        <h2 style="font-size: 25px; font-weight: lighter;">DIFFERENT AREAS OF THE SELF</h2>   
+      </div>
+    </div>
+
+    <ul>
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="signs.html">SIGNS</a></li>
+      <li><a href="houses.html">HOUSES</a></li>
+      <li><a href="elements.html">ELEMENTS</a></li>
+    </ul>          
+      
+      </header>
+
+      
+
+    <main class="grid-4">
+    <article class="card">
+     
+          <div class="column">
+        <p><img src="images/sun.png" alt="icon of the sun"></p>
+          <h3 style="color: rgb(252, 218, 184)">SUN</h3>
+          <p style="color: rgb(252, 218, 184)">Sense of Purpose, Direction, Self-Expression, External Self, Identity. 
+            <b>Rules: Leo </b>
+          </p>
+          </div>
+      </article>
+    </main>
+
+      <main class="grid-4">
+      <article class="card">
+        <div class="column">
+        <p><img src="images/moon.png" alt="icon of the moon"></p>
+          <h3 style=" color: rgb(173, 238, 252)">MOON</h3>
+          <p style=" color: rgb(173, 238, 252)">Inner Emotional Nature, Feelings, Instincts, Memories, Inner Self. <b>Rules: Cancer</b> </p>
+         </div>
+      </article>
+    </main>
+
+    <main class="grid-4">
+      <article class="card">
+        <div class="column">
+        <p><img src="images/mercury.png" alt="icon of planet mercury"></p>
+        
+          <h3>MERCURY</h3>
+          <p>Perception, Communication, Thinking, Rationalizing, Analysis. <b>Rules: Gemini & Virgo</b></p>
+        </div>
+      </article>
+    </main>
+
+    <main class="grid-4">
+      <article class="card">
+        <div class="column">
+        <p><img src="images/venus.png" alt="icon of planet venus"></p>
+        
+          <h3 style="color: rgb(128, 166, 147)">VENUS</h3>
+          <p style="color: rgb(128, 166, 147)">Love, Values, Relationships, Resources, Beauty. <br>
+            <b>Rules: Taurus & Libra</b></p>
+          </div>
+      </article>
+    </main>
+
+    <main class="grid-4">
+      <article class="card">
+        <div class="column">
+        <p><img src="images/mars.png" alt="icon of planet mars"></p>
+        
+        <h3 style="color: rgb(252, 218, 184)">MARS</h3>
+        <p style="color: rgb(252, 218, 184)">
+            Action, Initiation, Desire, Self-Assertion. <br>
+             <b>Rules: Aries</b></p>
+            </div>
+      </article>
+    </main>
+
+    <main class="grid-4">
+      <article class="card">
+        <div class="column">
+        <p><img src="images/jupiter.png" alt="icon of jupiter"></p>
+   
+          <h3 style=" color: rgb(252, 218, 184)">JUPITER</h3>
+          <p style=" color: rgb(252, 218, 184)">
+            Truth, Beliefs, Expansion, Confidence. <br>
+             <b>Rules: Sagittarius</b></p>
+         </div>
+      </article>
+    </main>
+
+    <main class="grid-4">
+      <article class="card">
+        <div class="column">
+        <p><img src="images/pluto.png" alt="icon of pluto"></p>
+      
+          <h3 style="color: rgb(173, 238, 252)">PLUTO</h3>
+          <p style="color: rgb(173, 238, 252)">Transformation, Evolution, Death & Rebirth. <br>
+            <b>Rules: Scorpio</b></p>
+           </div>
+      </article>
+    </main>
+
+    <main class="grid-4">
+      <article class="card">
+        <div class="column">
+        <p><img src="images/neptune.png" alt="icon of neptune"></p>
+        
+          <h3 style="color: rgb(173, 238, 252)">NEPTUNE</h3>
+          <p style="color: rgb(173, 238, 252)">
+            Inspiration, Oneness, Illusion, Imagination, Psychic Sensitivity. <b>Rules: Pisces</b></p>
+          </div>
+      </article>
+    </main>
+
+    <main class="grid-4">
+      <article class="card">
+        <div class="column">
+        <p><img src="images/saturn.png" alt="icon of saturn"></p>
+       
+        <h3 style="color: rgb(128, 166, 147)">SATURN</h3>
+          <p style="color: rgb(128, 166, 147)">
+            Achievement, Structure, Responsibility, Mastery. <b>Rules: Capricorn</b></p>
+           </div>
+      </article>
+    </main>
+
+    <main class="grid-4">
+      <article class="card">
+        <div class="column">
+        <p><img src="images/uranus.png" alt="number ten character"></p>
+      
+          <h3 style=" color: light rgb(245, 150, 246)">URANUS</h3>
+          <p style=" color: light rgb(245, 150, 246)">
+            Liberation, Awakening,  Innovation, Individuation. <b>Rules: Aquarius</b></p>
+            </div>
+      </article>
+      </main>
+
+          </div>
+      </article>
+    </main>
+  
+  </body>
+</html> 

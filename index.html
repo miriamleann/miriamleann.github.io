@@ -3,20 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Change this text! It shows up in the browser tab</title>
+    <title>Mir's Homepage</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
+  <style>
+
+    h1 {
+      color: hotpink;
+      font-size: 100px;
+      font-family: cooper;
+    }
+
+    a:hover {
+      color: mediumaquamarine;
+    }
+    
+    div {
+      font-family: avenir;
+    }
+
+
+
+  </style>
+  </style>
   <body>
     <header>
-      <h1>Miriam's Homepage</h1>
+      <h1>miriam's homepage</h1>
     </header>
     <nav>
       <div><a href="index.html">home</a><a href="design-journal.html">design journal</a></div>
     </nav>
     <main>
       <p>This is your homepage. have fun with it.</p>
+
+      <form action="https://getsimpleform.com/messages?form_api_token=45798631585c231ae721713c5e608230" method="post">
+        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+        <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+        <!-- all your input fields here.... -->
+        <input type='text' name='test' />
+        <input type='submit' value='Test form' />
+        <input type='submit' value='Test form' />
+      </form>
+            
     </main>
     <footer></footer>
   </body>

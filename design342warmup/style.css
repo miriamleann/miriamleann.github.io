@@ -1,0 +1,49 @@
+body { 
+    background-color: lightblue;
+ 
+}
+
+h1 {
+    color: hotpink;
+    font-size: 80px;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 40px;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #FDDF4F;
+    text-align: center;
+    padding: 15px 150px;
+    text-decoration: none;
+    font-family: 'Lobster Two', cursive;
+   
+
+  }
+  
+
+
+
+
+
+a:hover {
+  color: hotpink;
+}
+
+
+
+

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="styles.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Tell-Tale Heart</title>
+
+
+
+
+</head>
+<style>
+  
+
+  h1 {
+    text-align: center;
+    color: rgb(248,57,11);
+    font-family: avara;
+  }
+   
+
+
+  div1 {
+width: 10px;
+height: 10px;
+background-color: rgb(49,49,46);
+position: relative;
+animation-name: example;
+animation-duration: 7s;
+color: red; 
+font-family: avara;
+}
+
+@keyframes example {
+0%   {background-color:rgb(49,49,46); left:0px; top:0px;}
+25%  {background-color:rgb(49,49,46); left:50px; top:0px;}
+50%  {background-color:rgb(49,49,46); left:50px; top:50px;}
+75%  {background-color:rgb(49,49,46); left:0px; top:50px;}
+100% {background-color:rgb(49,49,46); left:0px; top:0px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+margin: 0;
+padding: 0;
+background: rgb(49,49,46);
+}
+
+ul {
+margin: 0;
+padding: 0;
+display: flex;
+position: absolute;
+top: 50%;
+left: 80%;
+transform: translate(-50%, -50%);
+}
+
+ul li {
+list-style: none;
+margin: 0 15px;
+}
+
+ul li a {
+position: relative; 
+display: block;
+width: 60px;
+height: 60px;
+text-align: center;
+line-height: 63px;
+background: #333;
+border-radius: 50%;
+font-size: 30px;
+color: #666;
+transition: .5s;
+}
+
+ul li a::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+
+transition: .5s;
+transform: scale(.9);
+z-index: -1;
+}
+
+ul li a:hover::before {
+transform: scale(1.1);
+box-shadow: 0 0 15px red;
+}
+
+ul li a:hover {
+
+box-shadow: 0 0 20px red;
+text-shadow: 0 0 20px red;
+}
+      
+
+
+
+
+
+
+
+.container {
+position: relative;
+font-family: avara;
+}
+
+.text-block {
+position: absolute;
+bottom: 5px;
+right: 5px;
+background-color: rgb(49,49,46);
+color: white;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+  
+<body>
+
+
+  &nbsp;
+  &nbsp;
+<h1>The Tell-Tale Heart</h1>
+&nbsp;
+
+
+
+
+
+
+
+<img id="myImage" src="images/page1.1.jpg" style="width:750px">
+
+<center><button onclick="document.getElementById('myImage').src='images/page1.2.jpg'">uh oh</button></center>
+
+<center><button onclick="document.getElementById('myImage').src='images/page1.1.jpg'">silent peaceful sleepy house</button></center>
+
+    
+
+
+
+  
+ 
+   
+      <div1><h2 style="color:red;">
+        <p>True!—Nervous—very, very dreadfully nervous I had been and am; but why will you say that I am mad? </p>
+        &nbsp;
+       <p>The disease had sharpened my senses—not dulled them. </p>
+       &nbsp;
+         
+      <p>Above all was the sense of hearing acute. I heard all things in the heaven and in the earth. I heard many things in hell.</p>
+      &nbsp; 
+         
+     <p>How, then am I mad? Harken! And observe how healthily—how calmly I can tell you the whole story</p></h2>
+    
+ </p>  
+ </div1>
+    </div>
+  </div>
+  
+
+
+
+ 
+  <div>
+    <ul>
+    
+      <li>
+        <a href="page_two.html">
+         <p style="font-size: 20px; font-family: avara; color: red;">next</p>
+        </a>
+        </li>
+     
+    </ul>
+    
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+

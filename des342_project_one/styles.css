@@ -1,0 +1,64 @@
+
+
+
+body {
+    background-color: rgb(49,49,46);
+   
+}
+
+h2{
+    font-family: avara;
+    font-size: 10pt;
+    color: white;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
+
+
+
+
+
+  h1 {
+    text-align: center;
+    color: rgb(248,57,11);
+    font-family: avara;
+  }
+   
+
+
+  div1 {
+width: 10px;
+height: 10px;
+background-color: rgb(49,49,46);
+position: relative;
+animation-name: example;
+animation-duration: 7s;
+color: red; 
+font-family: avara;
+}
+
+@keyframes example {
+0%   {background-color:rgb(49,49,46); left:0px; top:0px;}
+25%  {background-color:rgb(49,49,46); left:50px; top:0px;}
+50%  {background-color:rgb(49,49,46); left:50px; top:50px;}
+75%  {background-color:rgb(49,49,46); left:0px; top:50px;}
+100% {background-color:rgb(49,49,46); left:0px; top:0px;}
+}
+
+
+
+
+
+
+
+
+  

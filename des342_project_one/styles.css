@@ -8,7 +8,7 @@ body {
 
 h2{
     font-family: avara;
-    font-size: 10pt;
+    font-size: 17px;
     color: white;
     text-align: center;
 }
@@ -35,25 +35,14 @@ img {
    
 
 
-  div1 {
-width: 10px;
-height: 10px;
-background-color: rgb(49,49,46);
-position: relative;
-animation-name: example;
-animation-duration: 7s;
-color: red; 
-font-family: avara;
-}
-
-@keyframes example {
-0%   {background-color:rgb(49,49,46); left:0px; top:0px;}
-25%  {background-color:rgb(49,49,46); left:50px; top:0px;}
-50%  {background-color:rgb(49,49,46); left:50px; top:50px;}
-75%  {background-color:rgb(49,49,46); left:0px; top:50px;}
-100% {background-color:rgb(49,49,46); left:0px; top:0px;}
-}
-
+  div {
+    border: 1px solid  rgb(49,49,46);;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    text-align: justify;
+   
+  }
 
 
 
@@ -62,3 +51,64 @@ font-family: avara;
 
 
   
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(49,49,46);
+  }
+  
+  ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  }
+  
+  ul li {
+  list-style: none;
+  margin: 0 15px;
+  }
+  
+  ul li a {
+  position: relative; 
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 63px;
+  background: #333;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #666;
+  transition: .5s;
+  }
+  
+  ul li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+  }
+  
+  ul li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px red;
+  }
+  
+  ul li a:hover {
+  
+  box-shadow: 0 0 20px red;
+  text-shadow: 0 0 20px red;
+  }
+       

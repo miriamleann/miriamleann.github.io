@@ -18,14 +18,71 @@
      
 
 
-button {
-  color: red;
-  background-color: rgb(49,49,46);
+
+
+
+
+
+body {
+margin: 0;
+padding: 0;
+background: rgb(49,49,46);
 }
 
+ul {
+margin: 0;
+padding: 0;
+display: flex;
+position: absolute;
+top: 50%;
+left: 80%;
+transform: translate(-50%, -50%);
+}
 
+ul li {
+list-style: none;
+margin: 0 15px;
+}
 
+ul li a {
+position: relative; 
+display: block;
+width: 60px;
+height: 60px;
+text-align: center;
+line-height: 63px;
+background: #333;
+border-radius: 50%;
+font-size: 30px;
+color: #666;
+transition: .5s;
+}
 
+ul li a::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+
+transition: .5s;
+transform: scale(.9);
+z-index: -1;
+}
+
+ul li a:hover::before {
+transform: scale(1.1);
+box-shadow: 0 0 15px red;
+}
+
+ul li a:hover {
+
+box-shadow: 0 0 20px red;
+text-shadow: 0 0 20px red;
+}
+      
 
 
 
@@ -61,29 +118,38 @@ button {
                 
              
                
-                <div1><h2 style="color:rgb(0,174,239);">
+                <center><div><h2 style="color:red;">
                  <p>It is impossible to say how the first idea entered my brain; but once conceived, it haunted me day and night.
-                </p>
-                 &nbsp;
-                <p>Object there was none. Passion there was none. </p>
-                &nbsp;
-                  
-               <p>I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. 
-              </p>
-               &nbsp; 
-                  
-              <p>I think it was his eye! yes, it was this! One of his eyes resembled that of a vulture—a pale blue eye, with a film over it. 
-              </p>
-            
-              &nbsp;
-              <p>Whenever it fell upon me, my blood ran cold; and so by degrees—very gradually—I made up my mind to take the life of the old man, and thus rid myself of the eye forever. 
-              </p></h2></div1>
+                 Object there was none. Passion there was none.
+                I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. 
+              I think it was his eye! yes, it was this! One of his eyes resembled that of a vulture—a pale blue eye, with a film over it. 
+              Whenever it fell upon me, my blood ran cold; and so by degrees—very gradually—I made up my mind to take the life of the old man, and thus rid myself of the eye forever. 
+              </p></h2></div>
           
 
 
+ 
+              <div>
+                <ul>
+                
+                  <li>
 
 
+                    <a href="page_three.html">
+                      <p style="font-size: 20px; font-family: avara; color: rgb(0,174,239);">next</p>
+                     </a>
 
+              <a href="index.html">
+                <p style="font-size: 20px; font-family: avara; color: rgb(0,174,239);">back</p>
+               </a>
+
+
+           
+             
+            </div>
+          </ul>
+                
+        </li>
 
 
 

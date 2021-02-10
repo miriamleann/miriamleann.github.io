@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mir's Homepage</title>
+    <title>mir's homepage</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -11,64 +11,133 @@
   <style>
 
     h1 {
-      color: hotpink;
+      color: lightyellow;
       font-size: 100px;
-      font-family: cooper;
+      font-family: compagnon;
     }
 
-   p {
-    color: mediumaquamarine;
-   }
+    @media only screen and (min-width: 1024px) {
 
 
+h1 {
+    font-size: 100px;
+    color: black;
+}
+}
+
+div1 {
+  font-family: avara;
+  font-size: 20px;
+  
+}
    
 
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color:lightyellow;
+  
+}
+
+
+.hero-image {
+  background-image:  url("abstract.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 90%
+}
+
+
+
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
    
 
-  </style>
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(177, 238, 177);
+    text-align: center;
+    padding: 25px 100px;
+    text-decoration: none;
+    font-family: avara;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(177, 238, 177), 0 0 5px rgb(177, 238, 177);
+
+  }
+
+
+
+
+
   </style>
   <body>
-    <header>
-      <h1>miriam's homepage</h1>
-    </header>
-    <nav>
-      <div><a href="index.html">home</a><a href="design-journal.html">design journal</a></div>
-    </nav>
+
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Miriam Russell</h1>
+    </div>
+    </div>
+    
+ <ul>
+      <li><a href="home.html">home</a></li>
+      <li><a href="design342warmup/index.html">assignment1</a></li>
+      <li><a href="design342assignment2/index.html">assignment2</a></li>
+      <li><a href="index.html">assignment3</a></li>
+      <li><a href="index.html">assignment4</a></li>
+      <li><a href="des342_project_one/index.html">project1</a></li>
+    </ul>   
+
+  
+    
     <main>
-      <p style="font-family:'Courier New', Courier, monospace">heyo! here's my contact form</p>
+     
 
-      <form action="https://getsimpleform.com/messages?form_api_token=45798631585c231ae721713c5e608230" method="post">
-        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-        <input type='hidden' name='redirect_to' value='<https://miriamleann.github.io/>' />
-        <!-- all your input fields here.... -->
 
-<input type='submit' value='fav childhood experience?' />
-<input type='text' name='test' />
-        
-<br>
-<input type='submit' value='what keeps you up at night?' />
-<input type='text' name='test' />
-        
-<br>
-<input type='submit' value='does your daddy cry?' />     
-<input type='text' name='test' />
-        
-<br>
-<input type='submit' value='how are you doin?' />
-<input type='text' name='test' />
-
-</form>
+     
 
 <br>
 <br>
 
-<p style="color:lightpink; font-size: 20px; font-family: 'Courier New', Courier, monospace"> Play Elliott! </p>
+<p style="color: black; font-size: 20px; font-family: 'avara'"> </p>
 
 
 
 <audio controls autoplay>
   <source src="elliottsmith.mp3" />
 </audio>
+
+
+
+
 
 </main>
 

@@ -39,18 +39,44 @@
   }
   
   .one {
-    background: #efdefe;
+    background: #de98e0;
   }
   .two {
-    background: #a3f3d3;
+    background: #a7157b;
   }
   .three {
-    background: #0bbaa0;
+    background: #b985b7;
   }
   .four {
-    background: #00dfdf;
+    background: #f082dd;
   }
+
+  .five {
+    background: #f07484;
+  }
+
+  .six {
+    background: #c0104a;
+  }
+
+
+  .seven {
+    background: #d89de4;
+  }
+
+
   .center {
     text-align: center;
   }
   
+
+  h1 {
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace
+    
+  }
+
+  h2 {
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace
+  }

@@ -1,0 +1,26 @@
+h1 {
+    color: pink;
+    font-family: barricada-pro, serif;
+    font-size: 200px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: row;
+  }
+  
+  .flex-container > div {
+    background-color:white;
+    width: 700px;
+    margin: 40px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    
+  }
+
+
+  

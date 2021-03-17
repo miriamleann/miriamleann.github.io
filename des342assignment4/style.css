@@ -4,15 +4,12 @@
   
   body {
     margin: 0;
-    background-color: #0d065c;
     position: relative;
   }
   
-  p {
-    color: #fff;
-  }
+
   .protagonist {
-    padding: 120px;
+    padding: 100px;
     z-index: 1;
     position: sticky;
     top: 0;
@@ -46,8 +43,8 @@
   }
   .vh-center {
     margin: 120px auto;
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 90%;
   }
   .start {
     height: 100vh;
@@ -58,20 +55,25 @@
     right: 0;
   }
   .one {
-    background: #514ce6;
+    background: url('images/daisies.jpg');
   }
+
   .two {
-    background: #3a37a6;
+    background: url('images/taurusconstellation.jpg');
   }
+
   .three {
-    background: #2a2878;
+    background: url('images/tuna.jpg');
   }
+
   .four {
-    background: #1f1d57;
+    background-image: url('images/theleftovers.jpg');
   }
+
   .five {
-    background: #111030;
+    background:  url('images/miranddaisy.jpg');
   }
+
   .center {
     text-align: center;
   }

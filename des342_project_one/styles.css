@@ -7,7 +7,7 @@ body {
 }
 
 h2{
-    font-family: avara;
+    font-family: 'Texturina', serif;
     font-size: 17px;
     color: white;
     text-align: center;
@@ -23,14 +23,16 @@ img {
 
 
 
-
+audio {
+  display: none;
+}
 
 
 
   h1 {
     text-align: center;
     color: rgb(248,57,11);
-    font-family: avara;
+    font-family: 'Texturina', serif;
   }
    
 
